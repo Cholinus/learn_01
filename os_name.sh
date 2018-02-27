@@ -1,3 +1,3 @@
 #!/bin/bash
 
-uname -a;
+uname -a | awk '{print $1 " " $2 " " $3}';
